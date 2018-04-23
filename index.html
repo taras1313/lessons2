@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <h1>sample html page</h1>
+   </header> 
+   
+   <main>
+       <article>
+           <h2>some video</h2>
+           <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/TORSuS3jjn0" frameborder="0" 
+                allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       </article>
+       <article>
+           <h2>table sample</h2>
+           <table border>
+               <tbody
+               <tr>
+                   <th></th>
+                   <th>product 1</th>
+                   <th>product2</th>
+                   <th>probuct3</th>
+                   <th rowspan="5">summary</th>
+                   
+               </tr>
+               <tr>
+                    <th>quartal1</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+               </tr>
+               <tr>
+                    <th>quartal2</th>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+               </tr>
+               <tr>
+                    <th>quartal3</th>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+               </tr>
+           
+           <tr>
+               <th>total</th><td colspan="3">X</td>
+               
+           </tr>
+           </tbody>
+           </table>
+           
+       </article>
+       <article>
+           <h2>list</h2>
+           <ul type="circle">
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               
+           </ul>
+           
+            <ol type="I" start="3" reversed>
+               <li>1</li>
+               <li>2</li>
+               <li>3</li>
+               
+           </ol>
+           
+       </article>
+       <article>
+           <h2>form</h2>
+           <!--Method GET: form.php?name=Jon&email=jon@wall.com -->
+            <!-- Method POST: form.php -->
+           <form method="post" action="https://formspree.io/jakimuk.taras.semenowuch@gmail.com">
+               <label for="client-name">name</label>
+               <input id="client-name" type="text" placeholder="name" name="client-name" required>
+               <br>
+               <br>
+               <label>email: <input  type="email" placeholder="email" name="client-email "required >
+               </label>
+               <br>
+               
+               <br>
+               <label>
+                   <input type="text" required pattern="[A-Z]{2}[\d]{6}" placeholder="AA012345" title="AA012345">
+                   
+               </label>
+               <br>
+               <label>your gender
+               </label>
+               <br>
+               <label> man
+               <input type="radio" name="gender" value="famale"></label>
+               <label> female
+               <input type="radio" name="gender" value="secret" checked></label>
+ <br>
+               <input type="submit" value="send">
+                <input type="reset" value="clear">
+                <br>
+           </form>
+       </article>
+   </main>
+   
+   <footer>
+       
+   </footer>
+</body>
+</html>
