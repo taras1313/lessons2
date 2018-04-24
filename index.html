@@ -86,19 +86,23 @@
                <label>email: <input  type="email" placeholder="email" name="client-email "required >
                </label>
                <br>
-               
                <br>
-               <label>
-                   <input type="text" required pattern="[A-Z]{2}[\d]{6}" placeholder="AA012345" title="AA012345">
-                   
-               </label>
+               <label>Your passport:
+                    <input type="text" placeholder="AA012345"
+                    name="user_passport"
+                     required pattern="[A-Z]{2}[\d]{6}"
+                     title="AA012345"
+                </label>
+                <br>
                <br>
                <label>your gender
                </label>
                <br>
                <label> man
-               <input type="radio" name="gender" value="famale"></label>
+               <input type="radio" name="gender" value="man"></label>
                <label> female
+               <input type="radio" name="gender" value="female"></label>
+               <label>Secret
                <input type="radio" name="gender" value="secret" checked></label>
  <br>
                <input type="submit" value="send">
